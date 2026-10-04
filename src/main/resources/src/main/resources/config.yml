@@ -1,0 +1,41 @@
+# =========================================================
+# TrueNullTotem - Truevanilla SMP
+# =========================================================
+
+# Maximum number of players allowed in one Null Totem team.
+max-team-size: 10
+
+# How long a team invitation stays valid (seconds).
+invite-expire-seconds: 300
+
+# If a linked player is offline when the Null Totem activates,
+# remember their death and apply it when they next join.
+pending-offline-death: true
+
+# Give the team owner a new special Totem of Undying
+# after the team's Null Totem has been triggered.
+respawn-totem-after-wipe: false
+
+# Messages
+messages:
+  prefix: "&8[&5NullTotem&8] &r"
+
+  team-created: "&aTeam &f%team% &ahas been created."
+  player-added: "&a%player% &ahas been added to team &f%team%&a."
+  player-removed: "&c%player% &chas been removed from team &f%team%&c."
+  player-not-found: "&cPlayer not found."
+  team-not-found: "&cThat team does not exist."
+  team-full: "&cThat team is full."
+  already-member: "&cThat player is already in the team."
+  not-member: "&cThat player is not in the team."
+
+  invite-sent: "&aInvite sent to &f%player%&a."
+  invite-received: "&eYou have been invited to team &f%team%&e."
+  invite-expired: "&cThat invitation has expired."
+
+  totem-given: "&dNull Totem given to &f%player%&d."
+  totem-triggered: "&5&lNULL TOTEM ACTIVATED!"
+  team-wiped: "&cThe entire team &f%team% &chas been wiped!"
+
+  no-permission: "&cYou don't have permission to use this."
+  reload: "&aConfiguration reloaded."
