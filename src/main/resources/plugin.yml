@@ -1,0 +1,14 @@
+name: TrueNullTotem
+version: 1.1.2
+main: com.truevanilla.nulltotem.TrueNullTotem
+api-version: '1.21'
+author: Truevanilla SMP
+commands:
+  nullteam:
+    description: Server-owner controlled Null Totem system
+    usage: /nullteam admin <create|add|remove|give|info|disband|reload>
+    aliases: [nt, nullt]
+permissions:
+  truenulltotem.admin:
+    description: Allows the server owner/admin to create and manage Null Totem teams
+    default: op
